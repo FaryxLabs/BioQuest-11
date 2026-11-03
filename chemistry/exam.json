@@ -1,0 +1,164 @@
+[
+  {
+    "section": "A | Multiple choice",
+    "intro": "Choose one answer for each question. 8 marks.",
+    "items": [
+      [
+        "1. Atomic number is the number of: A neutrons; B protons; C protons + neutrons; D shells.",
+        1,
+        "B. Proton number identifies the element."
+      ],
+      [
+        "2. Which particle is negative? A proton; B neutron; C electron; D nucleus.",
+        1,
+        "C. An electron has charge -1 and is outside the nucleus."
+      ],
+      [
+        "3. Across a period, first ionization energy generally: A increases; B decreases; C stays constant; D becomes zero.",
+        1,
+        "A. Greater effective nuclear attraction generally makes electron removal harder."
+      ],
+      [
+        "4. Which scientist left gaps while arranging elements mainly by atomic mass? A Bohr; B Moseley; C Mendeleev; D Chadwick.",
+        1,
+        "C. Modern ordering uses atomic number."
+      ],
+      [
+        "5. Which conducts when molten but not as a solid? A CO2; B KCl; C CH4; D O2.",
+        1,
+        "B. Molten KCl has mobile ions; solid KCl has fixed ions."
+      ],
+      [
+        "6. Which is polyatomic? A Na+; B Cl-; C NH4+; D Mg2+.",
+        1,
+        "C. Ammonium contains several bonded atoms with overall charge +1."
+      ],
+      [
+        "7. Which bond is non-polar? A H-Cl; B N-N; C O-H; D C-O.",
+        1,
+        "B. Identical nitrogen atoms share equally."
+      ],
+      [
+        "8. A lilac flame suggests: A Na+; B K+; C Li+; D Cu2+.",
+        1,
+        "B. Potassium produces the lilac flame in the course examples."
+      ]
+    ]
+  },
+  {
+    "section": "B | Definitions",
+    "intro": "Give concise definitions with the key scientific words. 8 marks.",
+    "items": [
+      [
+        "9. Define isotope.",
+        2,
+        "Atoms of the same element (same proton number) [1] with different neutron numbers [1]."
+      ],
+      [
+        "10. Define first ionization energy.",
+        2,
+        "Energy required to remove one electron [1] from an isolated gaseous atom [1]."
+      ],
+      [
+        "11. Define electronegativity.",
+        2,
+        "Ability of a bonded atom [1] to attract shared/bonding electrons [1]."
+      ],
+      [
+        "12. Define ionic bond.",
+        2,
+        "Electrostatic attraction [1] between oppositely charged ions [1]."
+      ]
+    ]
+  },
+  {
+    "section": "C | Calculations",
+    "intro": "Show your working. 7 marks.",
+    "items": [
+      [
+        "13. A particle has 17 protons, 18 neutrons and 18 electrons. Find Z, A and its charge.",
+        3,
+        "Z=17 [1]; A=17+18=35 [1]; charge=17-18=-1 [1]. It is a chloride ion."
+      ],
+      [
+        "14. Isotopes have masses 10 u (20%), 11 u (30%) and 12 u (50%). Calculate the average atomic mass and explain why it is not a whole number.",
+        4,
+        "Fractions 0.20, 0.30, 0.50 [1]; weighted expression 10(0.20)+11(0.30)+12(0.50) [1]; 11.3 u [1]. It is a weighted average of different isotopes, not the mass number of a single atom [1]."
+      ]
+    ]
+  },
+  {
+    "section": "D | Order and explain",
+    "intro": "Give the order or comparison AND the reason. 6 marks.",
+    "items": [
+      [
+        "15. Arrange F, Cl, Br and I by increasing atomic radius. Explain.",
+        2,
+        "F < Cl < Br < I [1]. Down the group, extra occupied electron shells increase radius [1]."
+      ],
+      [
+        "16. Which is larger, Na or Na+? Explain.",
+        2,
+        "Na [1]. Formation of Na+ removes its outer electron and occupied outer shell; remaining electrons are more tightly held [1]."
+      ],
+      [
+        "17. Why does atomic radius generally decrease from left to right across a period?",
+        2,
+        "Nuclear charge/proton number increases [1] while added electrons occupy the same main shell, so stronger effective attraction pulls them closer [1]."
+      ]
+    ]
+  },
+  {
+    "section": "E | Formulas and names",
+    "intro": "One mark per correct formula/name. 10 marks.",
+    "items": [
+      [
+        "18. Write formulas: (a) aluminium oxide; (b) magnesium phosphate; (c) iron(III) chloride; (d) ammonium sulfate; (e) carbon tetrachloride.",
+        5,
+        "(a) Al2O3; (b) Mg3(PO4)2; (c) FeCl3; (d) (NH4)2SO4; (e) CCl4. One mark each. Balance charge for ionic substances; use prefixes for molecular compounds."
+      ],
+      [
+        "19. Name: (a) FeS; (b) Mg(ClO3)2; (c) PCl5; (d) N2O5; (e) CoCl2.6H2O.",
+        5,
+        "(a) iron(II) sulfide; (b) magnesium chlorate; (c) phosphorus pentachloride; (d) dinitrogen pentoxide; (e) cobalt(II) chloride hexahydrate. One mark each."
+      ]
+    ]
+  },
+  {
+    "section": "F | Draw Lewis structures",
+    "intro": "Show all lone pairs and any overall charge. 9 marks.",
+    "items": [
+      [
+        "20. Draw NH3, H2O and one resonance contributor for CO3^2-.",
+        9,
+        "NH3: three N-H bonds [1], one N lone pair [1], correct total 8 electrons/complete H duets and N octet [1]. H2O: two O-H bonds [1], two O lone pairs [1], total 8 electrons and correct octet/duets [1]. CO3^2-: central C with one double and two single C-O bonds [1], correct O lone pairs (2 on double-bonded O; 3 on each single-bonded O) [1], brackets and overall 2- charge [1]. Total 24 electrons. See diagrams in the revision section."
+      ]
+    ]
+  },
+  {
+    "section": "G | Explain and apply",
+    "intro": "Use complete scientific explanations. 12 marks.",
+    "items": [
+      [
+        "21. Explain why solid KBr does not conduct but molten KBr does.",
+        4,
+        "Solid: ions exist [1] but are fixed in a lattice/not free to move [1]. Molten: ions are mobile [1] and carry charge through the substance [1]. Do not say there are no ions in the solid."
+      ],
+      [
+        "22. Compare how ionic and covalent bonds form.",
+        4,
+        "Ionic formation involves electron transfer [1], producing positive and negative ions held by electrostatic attraction [1]. Covalent bonding involves sharing [1] electron pairs between atoms [1]."
+      ],
+      [
+        "23. EN(C)=2.6 and EN(O)=3.4. Find the difference and classify the C-O bond.",
+        2,
+        "Difference=|3.4-2.6|=0.8 [1]; polar covalent under the supplied course convention [1]. Oxygen is partially negative."
+      ],
+      [
+        "24. Identify (a) radiation consisting of two protons and two neutrons; (b) radiation consisting of high-energy electromagnetic waves.",
+        2,
+        "(a) alpha [1]; (b) gamma [1]."
+      ]
+    ]
+  }
+]
