@@ -1,10 +1,139 @@
 <!doctype html>
 <html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ChemQuest 11 | Learn, recall, master</title>
 <style>
-:root{--bg:#081323;--panel:#14243a;--ink:#eef6ff;--muted:#a5b9d0;--mint:#64e8c1;--gold:#ffd16c}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,sans-serif}main{max-width:1000px;margin:auto;padding:24px}header{display:flex;justify-content:space-between;gap:20px;align-items:center}h1{font-size:clamp(32px,6vw,56px);line-height:1.1;margin:12px 0}h2{line-height:1.3}small,.muted{color:var(--muted)}.badge{color:var(--mint);letter-spacing:2px;font-weight:800;font-size:13px}.card{background:var(--panel);padding:26px;border:1px solid #29425d;border-radius:22px;margin:20px 0}.row{display:flex;gap:12px;flex-wrap:wrap}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}button,select,a.btn{font:inherit;border:1px solid #45627e;border-radius:12px;background:#1c3450;color:var(--ink);padding:12px 18px;cursor:pointer;text-decoration:none}button:hover,a.btn:hover{border-color:var(--mint)}button:focus-visible,a:focus-visible{outline:3px solid var(--gold)}button.primary{background:var(--mint);color:#06251c;font-weight:bold}button:disabled{cursor:default;opacity:.75}.answer{display:block;text-align:left;width:100%;margin:10px 0}.good{background:#174d3c!important;border-color:var(--mint)!important}.bad{background:#633342!important;border-color:#ff8e9e!important}.pill{background:#243951;padding:6px 12px;border-radius:30px}.progress{height:8px;background:#29425d;border-radius:12px;overflow:hidden}.progress div{height:100%;background:var(--mint)}.hidden{display:none!important}a{color:var(--mint)}#board{background:#073c3a;border:5px solid #97784e;min-height:280px;padding:30px;border-radius:12px}#board p{animation:appear .5s ease}#board strong{color:var(--gold)}@keyframes appear{from{opacity:1;transform:translateY(8px)}to{opacity:1;transform:none}}video{width:100%;border-radius:12px}footer{margin:24px 0;color:var(--muted);font-size:13px}@media(max-width:550px){main{padding:16px}.card{padding:18px}header{display:block}button{padding:10px 12px}}@media print{body{color:black;background:white}header,nav,button,footer,.downloads{display:none}.card{border:0;background:white;break-inside:avoid}main{max-width:none}}
+:root{color-scheme:dark;--bg:#080c19;--panel:#121c2e;--ink:#f5f7ff;--muted:#a7b9d1;--mint:#75efd7;--gold:#ffce79;--violet:#b9a5ff;--line:rgba(183,211,255,.16);--glass:rgba(18,28,46,.88)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse 48% 28% at 83% 0%,rgba(91,64,174,.22),transparent 85%),radial-gradient(ellipse 45% 32% at 4% 23%,rgba(16,143,171,.12),transparent 80%),linear-gradient(180deg,#080e1f 0%,#080c19 70%);background-attachment:fixed;color:var(--ink);font:16px/1.65 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.15;background-image:radial-gradient(#a8dbed .7px,transparent .7px);background-size:30px 30px;mask-image:linear-gradient(180deg,black,transparent 65%)}
+main{max-width:1180px;margin:auto;padding:0 26px 38px}
+h1,h2,h3,p{margin-top:0}
+h1{font-size:clamp(38px,6vw,72px);line-height:1.05;letter-spacing:-.055em}
+h2{font-size:clamp(25px,3.2vw,39px);line-height:1.2;letter-spacing:-.035em}
+h3{font-size:19px;line-height:1.3;letter-spacing:-.01em}
+p{line-height:1.7;color:#c7d5e6}
+small,.muted{color:var(--muted)}
+a{color:var(--mint)}
+a:hover{text-decoration-thickness:2px}
+.badge{color:var(--mint);font-size:11px;letter-spacing:.16em;font-weight:850;text-transform:uppercase}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:23px 0 20px;border-bottom:1px solid var(--line)}
+button,select,a.btn{font:inherit;border:1px solid var(--line);border-radius:14px;background:#1b2840;color:var(--ink);padding:11px 19px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;transition:background .18s,border-color .18s,transform .18s,box-shadow .18s}
+button:hover,a.btn:hover{border-color:rgba(117,239,215,.65);background:#293854;transform:translateY(-1px)}
+button:active,a.btn:active{transform:scale(.99)}
+button:focus-visible,a:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+button.primary,a.btn.primary{background:linear-gradient(120deg,#81f2da,#83d6ed);color:#082c2f;border:0;font-weight:800;box-shadow:0 7px 26px rgba(47,222,196,.17)}
+button.primary:hover,a.btn.primary:hover{background:linear-gradient(120deg,#a7ffe9,#a1eaff);box-shadow:0 10px 30px rgba(47,222,196,.27)}
+button:disabled{opacity:.75;cursor:default;transform:none}
+.brand{padding:0;background:transparent;border:0;gap:11px;text-align:left}
+.brand:hover{background:transparent;border:0}
+.brand-mark{display:grid;place-items:center;width:49px;height:49px;flex:none;border-radius:15px;color:#101b31;font-size:30px;font-weight:900;background:linear-gradient(140deg,var(--mint),var(--violet));box-shadow:0 6px 22px #76e5d626}
+.brand-name{font-size:19px;font-weight:900;letter-spacing:.02em;line-height:1}
+.brand-name span{color:var(--mint)}
+.brand-sub{display:block;font-size:10px;font-weight:800;letter-spacing:.18em;color:var(--muted);margin-top:4px}
+.topbar-right{display:flex;align-items:center;gap:12px}
+.toplabel{color:var(--muted);font-size:11px;letter-spacing:.15em;font-weight:850}
+.pill{background:rgba(123,143,214,.13);border:1px solid rgba(152,185,231,.22);border-radius:999px;padding:8px 13px;color:#dbeeff;font-size:12px;font-weight:750}
+.nav-shell{display:flex;gap:9px;flex-wrap:wrap;padding:17px 0 24px}
+.nav-shell button{min-height:41px;border-radius:12px;background:rgba(23,35,58,.62);font-size:13px;font-weight:700;padding:8px 15px}
+.nav-shell button:first-child{background:rgba(118,240,216,.12);color:#94ffe6;border-color:rgba(118,240,216,.33)}
+.card{background:linear-gradient(150deg,rgba(25,39,63,.95),rgba(16,27,46,.95));padding:30px;border:1px solid var(--line);border-radius:24px;margin:22px 0;box-shadow:0 15px 35px rgba(0,0,0,.12)}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:13px}
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,1.2fr) minmax(230px,.8fr);gap:20px;align-items:center;min-height:400px;background:radial-gradient(circle at 85% 43%,rgba(130,108,247,.22),transparent 45%),linear-gradient(130deg,#172843,#111a33 65%,#172342);border:1px solid rgba(171,174,255,.27);border-radius:30px;padding:clamp(27px,4.8vw,56px);overflow:hidden;box-shadow:0 23px 60px rgba(0,0,0,.21)}
+.hero::after{content:"";position:absolute;right:-100px;bottom:-170px;border:1px solid rgba(172,190,255,.1);width:450px;height:450px;border-radius:50%;pointer-events:none}
+.hero>*{position:relative;z-index:1}
+.hero h1{margin:15px 0 19px;max-width:670px}
+.hero h1 em{font-style:normal;background:linear-gradient(100deg,#81efd6,#b9b1ff);background-clip:text;-webkit-background-clip:text;color:transparent}
+.hero p{max-width:510px;font-size:16px;color:#bacce1;margin-bottom:25px}
+.hero-stamp{display:inline-flex;gap:7px;align-items:center;font-size:11px;font-weight:800;letter-spacing:.14em;color:#a1f7e3;background:#103d46;border:1px solid #236974;border-radius:100px;padding:7px 11px}
+.hero-actions{display:flex;gap:11px;flex-wrap:wrap}
+.hero-actions button{font-weight:800}
+.hero-art{display:flex;align-items:center;justify-content:center;min-height:290px;position:relative}
+.orbit{position:absolute;width:260px;height:260px;border:2px solid rgba(146,197,251,.45);border-radius:50%;transform:rotate(32deg) scaleY(.39)}
+.orbit:nth-child(2){transform:rotate(-32deg) scaleY(.39);border-color:rgba(170,139,255,.65)}
+.orbit:nth-child(3){transform:rotate(90deg) scaleY(.39);border-color:rgba(117,239,215,.52)}
+.nucleus{height:98px;width:98px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 25%,#baffec,#6ae6dd 50%,#4789d2);box-shadow:0 0 50px #7ce9e87b,0 0 100px #a697ec2a;font-size:43px;animation:floatAtom 5s ease-in-out infinite}
+.electron{position:absolute;width:17px;height:17px;background:#bdafff;border-radius:50%;box-shadow:0 0 20px #bdafff;top:26%;right:17%}
+.electron.second{top:auto;bottom:28%;right:auto;left:12%;background:#6debdc;box-shadow:0 0 20px #6debdc}
+.atom-label{position:absolute;bottom:0;right:0;color:#92a9c8;font-weight:800;font-size:10px;letter-spacing:.15em}
+.section-heading{display:flex;align-items:end;justify-content:space-between;gap:15px;flex-wrap:wrap;margin:30px 0 14px}
+.section-heading h2{font-size:25px;margin:5px 0 0}
+.stat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;margin:18px 0}
+.stat-tile{border:1px solid var(--line);background:rgba(21,34,55,.9);border-radius:19px;padding:19px 21px}
+.stat-num{display:block;font-size:29px;font-weight:900;line-height:1.2;letter-spacing:-.04em;color:#f4f8ff}
+.stat-caption{font-size:12px;color:var(--muted);font-weight:650}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.step-card{padding:23px;border-radius:22px;background:linear-gradient(150deg,#172741,#111d31);border:1px solid var(--line)}
+.step-icon{display:inline-grid;place-items:center;width:46px;height:46px;border-radius:14px;background:#2e3f62;font-size:23px;margin-bottom:17px}
+.step-card h3{margin-bottom:8px}
+.step-card p{font-size:13px;margin:0}
+.step-number{display:inline-block;float:right;font-size:11px;color:#8a9fbe;font-weight:800;letter-spacing:.12em}
+.next-card{display:grid;grid-template-columns:1fr auto;gap:22px;align-items:center;background:linear-gradient(110deg,rgba(27,74,78,.72),rgba(26,43,68,.96));border-color:rgba(99,225,208,.36)}
+.next-card h2{font-size:clamp(23px,3vw,30px);margin:6px 0}
+.next-card p{margin:0}
+.progress{height:9px;border-radius:20px;overflow:hidden;background:#0b182b;border:1px solid rgba(128,162,214,.15);margin:14px 0}
+.progress>div{height:100%;background:linear-gradient(90deg,var(--mint),#9aa9ff);border-radius:20px;transition:width .3s ease}
+.lesson-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.lesson-item{width:100%;display:flex;align-items:center;justify-content:space-between;text-align:left;padding:16px 19px;border-radius:16px;background:rgba(28,42,65,.85)}
+.lesson-item .lesson-idx{color:#7de8d8;font-weight:850;font-size:12px;letter-spacing:.06em;margin-right:12px;flex:none}
+.lesson-item .lesson-name{flex:1;font-weight:700;font-size:13px}
+.lesson-item .lesson-arrow{font-size:19px;color:var(--mint)}
+.topic-tags{display:flex;flex-wrap:wrap;gap:9px}
+.topic-tags button{font-size:12px;padding:8px 13px;border-radius:11px;min-height:38px;background:rgba(35,49,78,.76)}
+.resource-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin-top:18px}
+.resource-item{padding:24px;border:1px solid var(--line);border-radius:20px;background:rgba(19,31,52,.9)}
+.resource-item h3{margin:13px 0 8px}
+.resource-item p{font-size:13px}
+.resource-emoji{font-size:30px}
+.resource-item a{font-weight:800}
+.downloads{margin-top:28px}
+.lesson-shell{max-width:900px;margin:28px auto}
+.lesson-top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.lesson-shell h2{margin:17px 0 23px;font-size:clamp(28px,4vw,45px)}
+.concept{display:grid;grid-template-columns:50px 1fr;gap:17px;padding:23px 18px;margin:13px 0;background:rgba(11,23,41,.78);border:1px solid rgba(156,185,229,.18);border-radius:18px}
+.concept-index{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:rgba(128,241,214,.13);color:var(--mint);font-weight:900;font-size:13px}
+.concept-label{display:block;color:#9cacf1;font-size:10px;font-weight:850;letter-spacing:.13em;text-transform:uppercase;margin-bottom:5px}
+.concept p{font-size:16px;line-height:1.9;margin:0;color:#e4eefb}
+.lesson-tools{margin:24px 0}
+.memory-prompt{background:rgba(255,206,121,.08);border:1px solid rgba(255,206,121,.29);padding:17px 18px;border-radius:15px;color:#ffe4aa!important;margin-top:23px;font-weight:700}
+.lesson-footer{display:flex;gap:12px;flex-wrap:wrap;align-items:center;padding-top:20px;border-top:1px solid var(--line)}
+.lesson-footer button.primary{flex:1}
+.quiz-shell{max-width:860px;margin:27px auto}
+.quiz-shell h2{margin:23px 0 26px;max-width:730px;font-size:clamp(25px,3.7vw,39px)}
+.quiz-meta{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.answer{display:flex;width:100%;align-items:center;justify-content:flex-start;gap:16px;padding:16px 20px;text-align:left;background:rgba(12,25,44,.86);border-radius:16px;margin:11px 0;border-color:rgba(140,176,226,.24);line-height:1.5}
+.answer:hover:not(:disabled){border-color:#8be9d8;background:rgba(28,59,73,.74)}
+.choice-letter{flex:none;width:38px;height:38px;border:1px solid #52718c;border-radius:11px;display:grid;place-items:center;background:#273c58;font-weight:800;color:#c9e8ff}
+.answer.good{background:#123e38!important;border-color:#69e7bc!important;color:#e2fff4}
+.answer.bad{background:#532c40!important;border-color:#ff8c9f!important;color:#ffe2e6}
+.answer.good .choice-letter{border-color:#78dfbc;background:#215f50}
+.answer.bad .choice-letter{border-color:#ff9ba9;background:#794057}
+.feedback-card{padding:18px 21px;border:1px solid rgba(130,218,190,.3);background:rgba(13,53,50,.46);border-radius:17px;margin:18px 0}
+.feedback-card.is-wrong{background:rgba(78,44,59,.37);border-color:rgba(255,153,159,.33)}
+.feedback-card h3{margin-bottom:7px}
+.feedback-card p{margin:0;color:#e7f2f7}
+#next{margin-top:7px;min-width:180px}
+.result-card{text-align:center;padding:40px 26px}
+.result-card h2{font-size:clamp(42px,7vw,64px);margin:7px 0}
+.result-card .row{justify-content:center;margin-top:25px}
+.result-icon{display:grid;place-items:center;width:86px;height:86px;margin:0 auto 17px;border-radius:25px;background:linear-gradient(145deg,#214e57,#35407b);font-size:40px}
+.hidden{display:none!important}
+#board{position:relative;background:linear-gradient(140deg,#093f44,#0d2a34);border:8px solid #977f58;min-height:280px;padding:25px;border-radius:16px;box-shadow:inset 0 0 40px #0002}
+#board p{color:#e5faef;animation:appear .45s ease}
+#board strong{color:var(--gold)}
+video{width:100%;border-radius:15px}
+footer{margin:45px 0 10px;padding:22px 0;border-top:1px solid var(--line);font-size:12px;line-height:1.75;color:#8ea2bc}
+footer button{padding:6px 11px;min-height:30px;font-size:11px;margin-left:9px}
+@keyframes floatAtom{0%,100%{transform:translateY(0)}50%{transform:translateY(-11px)}}
+@keyframes appear{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+#view{animation:appear .25s ease}
+@media(max-width:800px){.hero{grid-template-columns:1fr;min-height:unset}.hero-art{min-height:185px}.orbit{width:210px;height:210px}.nucleus{width:79px;height:79px;font-size:35px}.step-card{padding:19px}.stat-tile{padding:15px}}
+@media(max-width:600px){main{padding:0 15px 30px}.topbar{padding-top:15px}.brand-mark{width:40px;height:40px;font-size:25px}.brand-name{font-size:16px}.toplabel{display:none}.pill{font-size:10px;padding:7px 9px}.nav-shell{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;padding:14px 0 18px;margin-right:-15px;padding-right:15px}.nav-shell::-webkit-scrollbar{display:none}.nav-shell button{white-space:nowrap;flex:none;padding:8px 11px;font-size:12px}.hero{border-radius:23px;padding:26px 22px 19px;gap:8px}.hero h1{font-size:clamp(38px,10vw,57px)}.hero p{font-size:14px}.hero-art{min-height:150px;transform:scale(.8);margin:-19px 0}.stat-grid{gap:8px}.stat-num{font-size:23px}.stat-caption{font-size:10px}.stat-tile{padding:13px 11px}.steps,.lesson-list,.resource-grid{grid-template-columns:1fr}.card{padding:20px;border-radius:20px;margin:16px 0}.section-heading{margin-top:27px}.concept{grid-template-columns:36px 1fr;gap:12px;padding:16px 12px}.concept-index{width:33px;height:33px;font-size:11px}.concept p{font-size:15px}.lesson-footer button{flex:1 1 auto}.lesson-footer button.primary{flex:1 1 100%;order:-1}.answer{padding:12px 12px;gap:10px}.choice-letter{width:33px;height:33px}.next-card{grid-template-columns:1fr}.result-card{padding:30px 18px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{body{background:white;color:black}main{max-width:none}.topbar,.nav-shell,button,footer,.downloads{display:none!important}.card{border:0;background:white;box-shadow:none}.concept p{color:black}}
 </style>
-<main><header><div><span class="badge">FARES'S EXAM LAB / GRADE 11</span><h1>ChemQuest <span style="color:var(--mint)">11</span></h1><p class="muted">Learn it. Say it without notes. Prove it.</p></div><div class="pill" id="stats"></div></header>
-<nav class="row"><button onclick="home()">Home</button><button onclick="learn(0)">Learn first</button><button onclick="startQuiz()">Practice</button><button onclick="startQuiz(true)">Retry mistakes</button><button onclick="classroom()">Watch lesson</button></nav>
+<main><header class="topbar"><button class="brand" onclick="home()" aria-label="Go to ChemQuest home"><span class="brand-mark" aria-hidden="true">⚛</span><span><span class="brand-name">CHEM<span>QUEST</span></span><span class="brand-sub">FARYXLABS · GRADE 11</span></span></button><div class="topbar-right"><span class="toplabel">UNITS 01–02</span><div class="pill" id="stats" aria-label="Study progress"></div></div></header>
+<nav class="nav-shell row" aria-label="ChemQuest sections"><button onclick="home()">⌂ Home</button><button onclick="learn(0)">◈ Learn</button><button onclick="startQuiz()">✦ Practice</button><button onclick="startQuiz(true)">↻ Retry mistakes</button><button onclick="classroom()">▷ Watch lesson</button></nav>
 <section id="view" aria-live="polite"></section>
 <footer>Based on the supplied Units 1–2 revision booklet, quiz, PPT text and homework. Practice prediction, not an official exam. Progress stays in this browser. No login, tracking, ads or paid AI required. <button onclick="reset()">Reset progress</button></footer></main>
 <script>
@@ -16,13 +145,99 @@ const view=document.getElementById('view');
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function save(){try{localStorage.setItem('chemquest-v1',JSON.stringify(state))}catch(e){}document.getElementById('stats').textContent=state.xp+' XP · '+state.learned.length+'/18 lessons';}
 function stop(){playing=false;if('speechSynthesis'in window)speechSynthesis.cancel();}
-function home(){stop();mode='home';view.innerHTML='<div class="card"><span class="badge">START WITH UNDERSTANDING</span><h2>Your exam preparation, in three steps</h2><div class="grid"><div><h3>01 · Learn</h3><p>Read a short lesson. Cover the explanation and recall it aloud.</p></div><div><h3>02 · Practise</h3><p>Answer mixed questions. Every answer includes a reason.</p></div><div><h3>03 · Repair</h3><p>Retry mistakes after another topic. Draw Lewis diagrams on paper.</p></div></div><button class="primary" onclick="learn(1)">Begin with atomic structure</button></div><div class="card downloads"><h2>Exam pack and video</h2><p>60-mark predicted exam, worked answers and revision notes. The video uses the same lessons.</p><div class="row"><a class="btn" href="https://raw.githubusercontent.com/FaryxLabs/BioQuest-11/main/chemistry/Chemistry_Exam_and_Revision.pdf" target="_blank" rel="noopener">Download PDF</a><a class="btn" href="https://raw.githubusercontent.com/FaryxLabs/BioQuest-11/main/chemistry/Chemistry_Revision.mp4" target="_blank" rel="noopener">Download video</a></div><p class="muted">If a download is not ready yet, use Learn first and Watch lesson here.</p></div><div class="card"><h2>Choose a topic</h2><div class="row">'+['All',...new Set(D.questions.map(q=>q.topic))].map(t=>'<button onclick="startQuiz(false,\''+t+'\')">'+t+'</button>').join('')+'</div></div>';}
-function learn(i){stop();mode='learn';lesson=i;const l=D.lessons[i];view.innerHTML='<div class="card"><span class="badge">LESSON '+(i+1)+' / '+D.lessons.length+'</span><h2>'+esc(l.title)+'</h2><div id="explain">'+l.points.map(p=>'<p>'+esc(p)+'</p>').join('')+'</div><div class="row"><button onclick="document.getElementById(\'explain\').classList.toggle(\'hidden\')">Cover / reveal notes</button><button onclick="speakLesson()">Read aloud</button></div><p style="color:var(--gold)">Now explain the main rule and give one example without looking.</p><div class="row"><button onclick="learn('+Math.max(0,i-1)+')">Previous</button><button class="primary" onclick="markLearned()">I can explain this</button><button onclick="learn('+Math.min(D.lessons.length-1,i+1)+')">Next</button></div></div>'; }
+function home(){
+  stop(); mode='home';
+  const pct=Math.round(state.learned.length/D.lessons.length*100);
+  const topics=['All',...new Set(D.questions.map(q=>q.topic))];
+  const next=D.lessons.find(l=>!state.learned.includes(l.id))||D.lessons[0];
+  view.innerHTML=`
+    <section class="hero">
+      <div>
+        <span class="hero-stamp">✦ YOUR CHEMISTRY TRAINING LAB</span>
+        <h1>Big concepts.<br><em>Small, easy steps.</em></h1>
+        <p>Make chemistry click. Learn one idea, test what you remember, and turn every mistake into progress. No boring memorising walls.</p>
+        <div class="hero-actions"><button class="primary" onclick="learn(${next.id})">▶ Continue learning</button><button onclick="startQuiz()">Try a quiz ↗</button></div>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="orbit"></div><div class="orbit"></div><div class="orbit"></div><div class="nucleus">⚛</div><div class="electron"></div><div class="electron second"></div><span class="atom-label">ATOMS · BONDS · REACTIONS</span></div>
+    </section>
+    <div class="stat-grid" aria-label="Learning statistics">
+      <div class="stat-tile"><span class="stat-num">${state.xp}</span><span class="stat-caption">⚡ XP earned</span></div>
+      <div class="stat-tile"><span class="stat-num">${state.learned.length}<small> / ${D.lessons.length}</small></span><span class="stat-caption">◈ Lessons mastered</span></div>
+      <div class="stat-tile"><span class="stat-num">${state.missed.length}</span><span class="stat-caption">↻ Questions to retry</span></div>
+    </div>
+    <div class="section-heading"><div><span class="badge">YOUR ROADMAP</span><h2>Three moves to master it</h2></div></div>
+    <div class="steps">
+      <div class="step-card"><span class="step-number">STEP 01</span><div class="step-icon">📖</div><h3>Understand</h3><p>Read one bite-sized lesson and look at its example. No rushing.</p></div>
+      <div class="step-card"><span class="step-number">STEP 02</span><div class="step-icon">🧠</div><h3>Remember</h3><p>Hide the notes and say the rule in your own words.</p></div>
+      <div class="step-card"><span class="step-number">STEP 03</span><div class="step-icon">🎯</div><h3>Challenge</h3><p>Answer questions, see why, then retry what you missed.</p></div>
+    </div>
+    <div class="card next-card">
+      <div><span class="badge">PICK UP WHERE YOU LEFT OFF</span><h2>${esc(next.title)}</h2><p>${pct}% of your lessons marked learned · ${D.questions.length} questions available</p><div class="progress" aria-label="${pct}% lessons completed"><div style="width:${pct}%"></div></div></div>
+      <button class="primary" onclick="learn(${next.id})">Open lesson →</button>
+    </div>
+    <div class="section-heading"><div><span class="badge">START SOMEWHERE SIMPLE</span><h2>Explore the lessons</h2></div><button onclick="learn(0)">See the exam map ↗</button></div>
+    <div class="lesson-list">${D.lessons.slice(1,7).map(l=>`<button class="lesson-item" onclick="learn(${l.id})"><span class="lesson-idx">${String(l.id).padStart(2,'0')}</span><span class="lesson-name">${esc(l.title)}</span><span class="lesson-arrow">${state.learned.includes(l.id)?'✓':'↗'}</span></button>`).join('')}</div>
+    <div class="section-heading"><div><span class="badge">READY TO PLAY?</span><h2>Choose your challenge</h2></div></div>
+    <div class="card"><div class="row"><button class="primary" onclick="startQuiz()">▶ 20-question mixed round</button><button onclick="startQuiz(true)">↻ Retry ${state.missed.length} mistakes</button></div><p class="muted" style="margin:16px 0 10px;font-size:13px">Or focus on just one topic:</p><div class="topic-tags">${topics.map(t=>`<button onclick='startQuiz(false,${JSON.stringify(t)})'>${esc(t)}</button>`).join('')}</div></div>
+    <div class="section-heading"><div><span class="badge">STUDY RESOURCES</span><h2>More ways to prepare</h2></div></div>
+    <div class="resource-grid downloads">
+      <div class="resource-item"><span class="resource-emoji">📄</span><h3>Revision PDF</h3><p>Open the original Units 1–2 exam and revision pack.</p><a class="btn" href="Chemistry_Exam_and_Revision.pdf" target="_blank" rel="noopener">Open PDF ↗</a></div>
+      <div class="resource-item"><span class="resource-emoji">🎬</span><h3>Video explanation</h3><p>Review the chemistry lessons as a video, at your own speed.</p><a class="btn" href="Chemistry_Revision.mp4" target="_blank" rel="noopener">Open video ↗</a></div>
+    </div>`;
+}
+function learn(i){
+  stop(); mode='learn'; lesson=i;
+  const l=D.lessons[i],pct=Math.round((i+1)/D.lessons.length*100);
+  view.innerHTML=`
+  <div class="card lesson-shell">
+    <div class="lesson-top"><span class="badge">◈ LESSON ${String(i+1).padStart(2,'0')} / ${D.lessons.length}</span><span class="pill">${state.learned.includes(i)?'✓ Marked learned':'YOUR STUDY ZONE'}</span></div>
+    <div class="progress" aria-label="Lesson ${i+1} of ${D.lessons.length}"><div style="width:${pct}%"></div></div>
+    <h2>${esc(l.title)}</h2>
+    <p class="muted">Understand the idea first. Then hide it and try to explain it without looking.</p>
+    <div id="explain">${l.points.map((p,n)=>`<section class="concept"><span class="concept-index">${String(n+1).padStart(2,'0')}</span><div><span class="concept-label">${n===0?'THE BIG IDEA':'MAKE IT STICK'}</span><p>${esc(p)}</p></div></section>`).join('')}</div>
+    <div class="row lesson-tools"><button id="toggleNotes" onclick="toggleLessonNotes()">🙈 Hide notes & recall</button><button onclick="speakLesson()">🔊 Read aloud</button></div>
+    <p class="memory-prompt">💡 Memory check: Say the main rule and one example in your own words. Then reveal your notes to check yourself.</p>
+    <div class="lesson-footer">
+      <button onclick="learn(${Math.max(0,i-1)})">← Previous</button>
+      <button class="primary" onclick="markLearned()">✓ I can explain this</button>
+      <button onclick="learn(${Math.min(D.lessons.length-1,i+1)})">Next →</button>
+    </div>
+  </div>`;
+}
+function toggleLessonNotes(){
+  const notes=document.getElementById('explain'),btn=document.getElementById('toggleNotes');
+  if(!notes||!btn)return;
+  notes.classList.toggle('hidden');
+  btn.textContent=notes.classList.contains('hidden')?'👀 Reveal notes':'🙈 Hide notes & recall';
+}
 function markLearned(){if(!state.learned.includes(lesson)){state.learned.push(lesson);state.xp+=5;save()}if(lesson<D.lessons.length-1)learn(lesson+1);else startQuiz();}
 function shuffle(a){a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 function startQuiz(missed=false,topic='All'){stop();mode='quiz';queue=shuffle(D.questions.filter(q=>(!missed||state.missed.includes(q.id))&&(topic==='All'||q.topic===topic)));pos=0;score=0;if(!queue.length){view.innerHTML='<div class="card"><h2>No saved mistakes</h2><p>Try a mixed round to find what needs practice.</p><button onclick="startQuiz()">Start practice</button></div>';return}queue=queue.slice(0,missed?queue.length:20);showQ();}
-function showQ(){answered=false;if(pos>=queue.length){view.innerHTML='<div class="card"><span class="badge">ROUND COMPLETE</span><h2>'+score+' / '+queue.length+'</h2><p>'+state.missed.length+' questions saved for review. A correct multiple-choice answer is only a first step: explain why it is correct.</p><div class="row"><button class="primary" onclick="startQuiz(true)">Retry mistakes</button><button onclick="startQuiz()">New mixed round</button><button onclick="learn(0)">Learn again</button></div></div>';return}const q=queue[pos];const opts=shuffle(q.options.map((text,i)=>({text,i})));view.innerHTML='<div class="card"><div class="row"><span class="badge">'+q.topic.toUpperCase()+'</span><span class="muted">'+(pos+1)+' / '+queue.length+'</span></div><div class="progress"><div style="width:'+pos/queue.length*100+'%"></div></div><h2>'+esc(q.q)+'</h2>'+opts.map(o=>'<button class="answer" data-original="'+o.i+'" onclick="answer('+o.i+',this)">'+esc(o.text)+'</button>').join('')+'<div id="feedback"></div><button id="next" class="primary hidden" onclick="pos++;showQ()">Next question</button></div>';}
-function answer(i,b){if(answered)return;answered=true;const q=queue[pos],right=i===q.correct;if(right){score++;state.xp+=10;state.missed=state.missed.filter(id=>id!==q.id)}else if(!state.missed.includes(q.id))state.missed.push(q.id);view.querySelectorAll('.answer').forEach(x=>{x.disabled=true;if(Number(x.dataset.original)===q.correct)x.classList.add('good')});if(!right)b.classList.add('bad');document.getElementById('feedback').innerHTML='<h3>'+(right?'Correct — now remember why':'Let’s fix this')+'</h3><p>'+esc(q.why)+'</p>';document.getElementById('next').classList.remove('hidden');save();}
+function showQ(){
+  answered=false;
+  if(pos>=queue.length){
+    const percent=Math.round(score/queue.length*100);
+    view.innerHTML=`<div class="card quiz-shell result-card"><span class="result-icon" aria-hidden="true">🏆</span><span class="badge">ROUND COMPLETE</span><h2>${score} / ${queue.length}</h2><p>You scored ${percent}%. You have ${state.missed.length} questions saved for another try.</p><p class="muted">The real win: being able to explain <em>why</em> an answer is right.</p><div class="row"><button class="primary" onclick="startQuiz(true)">↻ Retry mistakes</button><button onclick="startQuiz()">✦ New round</button><button onclick="learn(0)">◈ Review lessons</button></div></div>`;
+    return;
+  }
+  const q=queue[pos],opts=shuffle(q.options.map((text,i)=>({text,i})));
+  view.innerHTML=`<div class="card quiz-shell"><div class="quiz-meta"><span class="badge">✦ ${esc(q.topic)}</span><span class="pill">QUESTION ${pos+1} / ${queue.length}</span></div><div class="progress" aria-label="Question progress"><div style="width:${Math.round(pos/queue.length*100)}%"></div></div><h2>${esc(q.q)}</h2><div class="choices">${opts.map((o,k)=>`<button class="answer" data-original="${o.i}" onclick="answer(${o.i},this)"><span class="choice-letter">${'ABCD'[k]||k+1}</span><span>${esc(o.text)}</span></button>`).join('')}</div><div id="feedback" aria-live="polite"></div><button id="next" class="primary hidden" onclick="pos++;showQ()">Next question →</button></div>`;
+}
+function answer(i,b){
+  if(answered)return;
+  answered=true;
+  const q=queue[pos],right=i===q.correct;
+  if(right){score++;state.xp+=10;state.missed=state.missed.filter(id=>id!==q.id)}
+  else if(!state.missed.includes(q.id))state.missed.push(q.id);
+  view.querySelectorAll('.answer').forEach(x=>{
+    x.disabled=true;
+    if(Number(x.dataset.original)===q.correct)x.classList.add('good');
+  });
+  if(!right)b.classList.add('bad');
+  document.getElementById('feedback').innerHTML=`<div class="feedback-card ${right?'':'is-wrong'}"><h3>${right?'✅ Correct — now remember why':'💡 Not quite — learn the reason'}</h3><p>${esc(q.why)}</p></div>`;
+  document.getElementById('next').classList.remove('hidden');
+  save();
+}
 function getVoice(){const voices=speechSynthesis.getVoices();const selected=document.getElementById('voice');return voices.find(v=>selected&&v.name===selected.value)||voices.find(v=>v.lang.startsWith('en')&&/natural|online|aria|jenny/i.test(v.name))||voices.find(v=>v.lang.startsWith('en'));}
 function speakLesson(){if(!('speechSynthesis'in window)){alert('Speech is unavailable here. Read the captions or download the video.');return}speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(D.lessons[lesson].narration);u.lang='en-US';u.rate=.9;u.voice=getVoice()||null;speechSynthesis.speak(u);}
 function classroom(){stop();mode='class';lesson=0;view.innerHTML='<div class="card"><h2>Teacher-board lesson</h2><p class="muted">Choose an English voice available on your device. Voice quality varies; all explanations also appear as text.</p><select id="voice" aria-label="Narration voice"></select><div id="board"></div><p id="lessonCount"></p><div class="row"><button onclick="step(-1)">Previous</button><button class="primary" onclick="play()">Play narration</button><button onclick="stop()">Stop</button><button onclick="step(1)">Next</button></div></div>';voiceList();drawBoard();}
