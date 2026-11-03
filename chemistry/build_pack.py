@@ -48,7 +48,7 @@ new('Predicted exam | 60 marks')
 add('Name: ____________________  Date: __________  Suggested time: 60 minutes')
 add('Use a periodic table and calculator for practice. Check your teacher\'s permitted equipment for the real exam. Show working and units. Draw Lewis diagrams in pencil.')
 for si,s in enumerate(E):
- if si and si in [2,4,5,6]:new(s['section'])
+ if si and si in [1,2,4,5,6]:new(s['section'])
  else:add(s['section'],'HeadQ')
  add(s['intro'])
  for question,marks,ans in s['items']:
@@ -61,7 +61,7 @@ for si,s in enumerate(E):
 new('Revision | Learn, cover, recall')
 add('A correct answer from memory is more useful than recognizing an answer on the page. Study each box, cover it, and explain the rule with an example.')
 for i,l in enumerate(D['lessons'][1:-1]):
- if i and i%3==0:new('Revision | Continued')
+ if i and i%4==0:new('Revision | Continued')
  add(l['title'],'HeadQ')
  for point in l['points']:add(point)
 class Lewis(Flowable):
@@ -150,6 +150,13 @@ contact=Image.new('RGB',(cols*w,math.ceil(len(thumbs)/cols)*h),'#b8c7ce')
 for i,im in enumerate(thumbs):contact.paste(im,((i%cols)*w,(i//cols)*h))
 contact.save(OUT/'pdf-preview.png')
 print('PDF validated:',len(doc),'pages',flush=True)
+
+if (OUT/'Chemistry_Revision.mp4').exists() and (OUT/'build-status.json').exists():
+ status=json.loads((OUT/'build-status.json').read_text())
+ status['pdf_pages']=len(doc)
+ (OUT/'build-status.json').write_text(json.dumps(status,indent=2))
+ print('Retained validated narrated video; PDF refreshed.',flush=True)
+ raise SystemExit(0)
 
 def command(args):subprocess.run(args,check=True)
 def duration(f):return float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','default=nw=1:nk=1',str(f)]))
