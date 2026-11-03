@@ -1,0 +1,1000 @@
+{
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Start here: the exam map",
+      "points": [
+        "Study the repeated question types first: particle counts, isotope averages, periodic trends, ion charges, formulas and names, Lewis diagrams and conductivity. Definitions, radiation, flame tests and the nature of chemistry also appear in your material.",
+        "Read one lesson, cover it, explain it aloud, then answer questions. Return to mistakes after another topic. This is a prediction from your materials, not the actual exam."
+      ],
+      "narration": "Start here: the exam map. Study the repeated question types first: particle counts, isotope averages, periodic trends, ion charges, formulas and names, Lewis diagrams and conductivity. Definitions, radiation, flame tests and the nature of chemistry also appear in your material. Read one lesson, cover it, explain it aloud, then answer questions. Return to mistakes after another topic. This is a prediction from your materials, not the actual exam."
+    },
+    {
+      "id": 1,
+      "title": "Particles and ions",
+      "points": [
+        "Z = protons. A = protons + neutrons. Neutrons = A - Z. Charge = protons - electrons. In a neutral atom, electrons = protons.",
+        "Protons: +1, nucleus. Neutrons: 0, nucleus. Electrons: -1, outside nucleus, much lighter. Example: 17 p, 18 n, 18 e gives Z=17, A=35, charge -1. Changing electrons makes an ion; changing protons changes the element."
+      ],
+      "narration": "Particles and ions. Z = protons. A = protons + neutrons. Neutrons = A - Z. Charge = protons - electrons. In a neutral atom, electrons = protons. Protons: +1, nucleus. Neutrons: 0, nucleus. Electrons: -1, outside nucleus, much lighter. Example: 17 p, 18 n, 18 e gives Z=17, A=35, charge -1. Changing electrons makes an ion; changing protons changes the element."
+    },
+    {
+      "id": 2,
+      "title": "Isotopes and averages",
+      "points": [
+        "Isotopes: same proton number, different neutron numbers. Average atomic mass = sum of (isotope mass x abundance/100).",
+        "Example: 35 u at 75% and 37 u at 25% gives 35(0.75)+37(0.25)=35.5 u. Check the answer lies between the isotope masses and nearer the more abundant isotope. Atomic mass unit: 1/12 of the mass of a carbon-12 atom."
+      ],
+      "narration": "Isotopes and averages. Isotopes: same proton number, different neutron numbers. Average atomic mass = sum of (isotope mass x abundance/100). Example: 35 u at 75% and 37 u at 25% gives 35(0.75)+37(0.25)=35.5 u. Check the answer lies between the isotope masses and nearer the more abundant isotope. Atomic mass unit: 1/12 of the mass of a carbon-12 atom."
+    },
+    {
+      "id": 3,
+      "title": "Models and electron shells",
+      "points": [
+        "Dalton: solid-sphere model. Thomson: electron, plum-pudding model. Rutherford: small dense positive nucleus, mostly empty space. Bohr: definite energy levels. Chadwick: neutron.",
+        "Most alpha particles passed through gold foil; a few deflected strongly. That supports Rutherford's conclusions. First-20-element shell examples: Al 2,8,3; S 2,8,6; Cl 2,8,7; K 2,8,8,1; Ca 2,8,8,2. Light is emitted when excited electrons fall to lower levels."
+      ],
+      "narration": "Models and electron shells. Dalton: solid-sphere model. Thomson: electron, plum-pudding model. Rutherford: small dense positive nucleus, mostly empty space. Bohr: definite energy levels. Chadwick: neutron. Most alpha particles passed through gold foil; a few deflected strongly. That supports Rutherford's conclusions. First-20-element shell examples: Al 2,8,3; S 2,8,6; Cl 2,8,7; K 2,8,8,1; Ca 2,8,8,2. Light is emitted when excited electrons fall to lower levels."
+    },
+    {
+      "id": 4,
+      "title": "Periodic table and families",
+      "points": [
+        "Modern table: increasing atomic number. Mendeleev used atomic mass and left gaps. Group = vertical column; period = horizontal row. Main-group family similarities come from similar valence electrons.",
+        "Group 1 alkali metals: 1 valence electron. Group 2 alkaline earths: 2. Group 17 halogens: 7. Group 18 noble gases: full shell; helium has 2. Metals conduct and are usually lustrous; metalloids have mixed properties; non-metals usually conduct poorly."
+      ],
+      "narration": "Periodic table and families. Modern table: increasing atomic number. Mendeleev used atomic mass and left gaps. Group = vertical column; period = horizontal row. Main-group family similarities come from similar valence electrons. Group 1 alkali metals: 1 valence electron. Group 2 alkaline earths: 2. Group 17 halogens: 7. Group 18 noble gases: full shell; helium has 2. Metals conduct and are usually lustrous; metalloids have mixed properties; non-metals usually conduct poorly."
+    },
+    {
+      "id": 5,
+      "title": "Trends: explain the reason",
+      "points": [
+        "Atomic radius increases DOWN a group (more shells and shielding), decreases ACROSS a period (greater nuclear attraction in the same shell). Ionization energy and electronegativity generally follow the opposite pattern.",
+        "First ionization energy: energy to remove an electron from an isolated gaseous atom. Electron affinity: energy change when a gaseous neutral atom gains an electron; many exceptions occur. Cations are smaller than their atoms; anions are larger. F < Cl < Br < I in radius; Li < Na < K < Rb."
+      ],
+      "narration": "Trends: explain the reason. Atomic radius increases DOWN a group (more shells and shielding), decreases ACROSS a period (greater nuclear attraction in the same shell). Ionization energy and electronegativity generally follow the opposite pattern. First ionization energy: energy to remove an electron from an isolated gaseous atom. Electron affinity: energy change when a gaseous neutral atom gains an electron; many exceptions occur. Cations are smaller than their atoms; anions are larger. F < Cl < Br < I in radius; Li < Na < K < Rb."
+    },
+    {
+      "id": 6,
+      "title": "Ion charges and the zero-sum rule",
+      "points": [
+        "Cations lose electrons and become positive. Anions gain electrons and become negative. Typical charges: groups 1 +1, 2 +2, 13 +3, 15 -3, 16 -2, 17 -1. The octet rule is a useful model with exceptions; H needs 2 electrons.",
+        "Total charge must be zero in an ionic formula. Al3+ and O2-: 2(+3)+3(-2)=0, so Al2O3. Mg2+ and PO4^3-: Mg3(PO4)2. Reduce ratios: Ca2+ and O2- give CaO, not Ca2O2."
+      ],
+      "narration": "Ion charges and the zero-sum rule. Cations lose electrons and become positive. Anions gain electrons and become negative. Typical charges: groups 1 +1, 2 +2, 13 +3, 15 -3, 16 -2, 17 -1. The octet rule is a useful model with exceptions; H needs 2 electrons. Total charge must be zero in an ionic formula. Al3+ and O2-: 2(+3)+3(-2)=0, so Al2O3. Mg2+ and PO4^3-: Mg3(PO4)2. Reduce ratios: Ca2+ and O2- give CaO, not Ca2O2."
+    },
+    {
+      "id": 7,
+      "title": "Polyatomic ions to memorize",
+      "points": [
+        "NH4+ ammonium; OH- hydroxide; NO3- nitrate; NO2- nitrite; SO4^2- sulfate; SO3^2- sulfite; CO3^2- carbonate; HCO3- hydrogen carbonate.",
+        "PO4^3- phosphate; HPO4^2- hydrogen phosphate; ClO- hypochlorite; ClO3- chlorate; ClO4- perchlorate; CN- cyanide; BrO3- bromate. Keep a polyatomic ion together: Al(NO3)3, (NH4)3PO4. Parentheses mean more than one whole ion."
+      ],
+      "narration": "Polyatomic ions to memorize. NH4+ ammonium; OH- hydroxide; NO3- nitrate; NO2- nitrite; SO4^2- sulfate; SO3^2- sulfite; CO3^2- carbonate; HCO3- hydrogen carbonate. PO4^3- phosphate; HPO4^2- hydrogen phosphate; ClO- hypochlorite; ClO3- chlorate; ClO4- perchlorate; CN- cyanide; BrO3- bromate. Keep a polyatomic ion together: Al(NO3)3, (NH4)3PO4. Parentheses mean more than one whole ion."
+    },
+    {
+      "id": 8,
+      "title": "Naming ionic compounds",
+      "points": [
+        "Name the cation first, then the anion. Monatomic anions end in -ide. Keep polyatomic-ion names. A Roman numeral gives the variable-charge metal's charge, not the atom count.",
+        "FeCl3: iron(III) chloride. FeS: iron(II) sulfide. Mg(ClO3)2: magnesium chlorate. PbO2: lead(IV) oxide. CuCl: copper(I) chloride. Na2SO4: sodium sulfate. IUPAC standard names help scientists communicate chemical identities clearly."
+      ],
+      "narration": "Naming ionic compounds. Name the cation first, then the anion. Monatomic anions end in -ide. Keep polyatomic-ion names. A Roman numeral gives the variable-charge metal's charge, not the atom count. FeCl3: iron(III) chloride. FeS: iron(II) sulfide. Mg(ClO3)2: magnesium chlorate. PbO2: lead(IV) oxide. CuCl: copper(I) chloride. Na2SO4: sodium sulfate. IUPAC standard names help scientists communicate chemical identities clearly."
+    },
+    {
+      "id": 9,
+      "title": "Molecular names and hydrates",
+      "points": [
+        "Prefixes: mono 1, di 2, tri 3, tetra 4, penta 5, hexa 6, hepta 7, octa 8, nona 9, deca 10. Usually omit mono on the first element. The second ends in -ide.",
+        "PCl5 phosphorus pentachloride; N2O5 dinitrogen pentoxide; CF4 carbon tetrafluoride; SO2 sulfur dioxide; NO nitrogen monoxide; S2Cl2 disulfur dichloride. CoCl2.6H2O: cobalt(II) chloride hexahydrate. Anhydrous CoCl2 has no water of crystallization."
+      ],
+      "narration": "Molecular names and hydrates. Prefixes: mono 1, di 2, tri 3, tetra 4, penta 5, hexa 6, hepta 7, octa 8, nona 9, deca 10. Usually omit mono on the first element. The second ends in -ide. PCl5 phosphorus pentachloride; N2O5 dinitrogen pentoxide; CF4 carbon tetrafluoride; SO2 sulfur dioxide; NO nitrogen monoxide; S2Cl2 disulfur dichloride. CoCl2.6H2O: cobalt(II) chloride hexahydrate. Anhydrous CoCl2 has no water of crystallization."
+    },
+    {
+      "id": 10,
+      "title": "Bonding and conductivity",
+      "points": [
+        "Ionic bonding: electrostatic attraction between opposite ions. Electron transfer produces ions. Covalent bonding: sharing electron pairs. Ionic substances form lattices; simple molecular substances contain separate molecules.",
+        "Ionic solids: usually high melting, hard and brittle. Solid ions cannot move, so do not conduct. Molten or dissolved ions can move and conduct. Simple molecular substances usually have lower melting/boiling points and poor conductivity. Test melting point, molten conductivity and solution conductivity; solubility alone is not decisive."
+      ],
+      "narration": "Bonding and conductivity. Ionic bonding: electrostatic attraction between opposite ions. Electron transfer produces ions. Covalent bonding: sharing electron pairs. Ionic substances form lattices; simple molecular substances contain separate molecules. Ionic solids: usually high melting, hard and brittle. Solid ions cannot move, so do not conduct. Molten or dissolved ions can move and conduct. Simple molecular substances usually have lower melting/boiling points and poor conductivity. Test melting point, molten conductivity and solution conductivity; solubility alone is not decisive."
+    },
+    {
+      "id": 11,
+      "title": "Electronegativity and polarity",
+      "points": [
+        "Electronegativity is the ability of a bonded atom to attract shared electrons. Difference = larger EN minus smaller EN. Higher EN atom is partially negative. Larger difference means a more polar bond.",
+        "Your PPT rule: 0 non-polar; between 0 and 1.7 polar; 1.7 or above predicts ionic. This is a guide: HF is polar covalent and CaS ionic despite borderline values. Your PPT labels C-H (0.4) weakly polar. Use the question's table and requested convention. H-F > H-Cl; O-H > C-H; C-N > N-N in polarity."
+      ],
+      "narration": "Electronegativity and polarity. Electronegativity is the ability of a bonded atom to attract shared electrons. Difference = larger EN minus smaller EN. Higher EN atom is partially negative. Larger difference means a more polar bond. Your PPT rule: 0 non-polar; between 0 and 1.7 polar; 1.7 or above predicts ionic. This is a guide: HF is polar covalent and CaS ionic despite borderline values. Your PPT labels C-H (0.4) weakly polar. Use the question's table and requested convention. H-F > H-Cl; O-H > C-H; C-N > N-N in polarity."
+    },
+    {
+      "id": 12,
+      "title": "Lewis structures: count first",
+      "points": [
+        "Total valence electrons: add atomic contributions; ADD electrons for negative charge, SUBTRACT for positive. Draw bonds, complete outer atoms, place remaining electrons, form multiple bonds if needed, then check totals and charges.",
+        "One bond = 2 electrons; double = 4; triple = 6. H2O: 8 total, 2 bonds, 2 lone pairs on O. NH3: 8 total, 3 bonds, 1 lone pair on N. CH4: 8 total, 4 bonds, no lone pair on C. Structural formulas omit lone-pair dots; Lewis structures include them."
+      ],
+      "narration": "Lewis structures: count first. Total valence electrons: add atomic contributions; ADD electrons for negative charge, SUBTRACT for positive. Draw bonds, complete outer atoms, place remaining electrons, form multiple bonds if needed, then check totals and charges. One bond = 2 electrons; double = 4; triple = 6. H2O: 8 total, 2 bonds, 2 lone pairs on O. NH3: 8 total, 3 bonds, 1 lone pair on N. CH4: 8 total, 4 bonds, no lone pair on C. Structural formulas omit lone-pair dots; Lewis structures include them."
+    },
+    {
+      "id": 13,
+      "title": "Lewis structures: homework targets",
+      "points": [
+        "I2: I-I, 3 lone pairs per I. CF4: 4 C-F bonds, 3 lone pairs per F. H2S: 2 S-H bonds, 2 lone pairs on S. PCl3 and NF3: 3 bonds and 1 lone pair on central atom; each halogen has 3 lone pairs.",
+        "C2H2: H-C triple-bond C-H; no carbon lone pairs. Ethanol: CH3-CH2-OH; ether: CH3-O-CH3; each O has 2 lone pairs. SO2 has resonance; one expanded-octet drawing has two S=O bonds and one S lone pair. CsCl is ionic: Cs+ and Cl-, not a covalent molecule."
+      ],
+      "narration": "Lewis structures: homework targets. I2: I-I, 3 lone pairs per I. CF4: 4 C-F bonds, 3 lone pairs per F. H2S: 2 S-H bonds, 2 lone pairs on S. PCl3 and NF3: 3 bonds and 1 lone pair on central atom; each halogen has 3 lone pairs. C2H2: H-C triple-bond C-H; no carbon lone pairs. Ethanol: CH3-CH2-OH; ether: CH3-O-CH3; each O has 2 lone pairs. SO2 has resonance; one expanded-octet drawing has two S=O bonds and one S lone pair. CsCl is ionic: Cs+ and Cl-, not a covalent molecule."
+    },
+    {
+      "id": 14,
+      "title": "Charged Lewis structures",
+      "points": [
+        "H3O+: 8 electrons, 3 O-H bonds, 1 lone pair on O. ClO-: 14 electrons, Cl-O single bond, 3 lone pairs on each atom. HCO3-: 24 electrons, HO-C(=O)-O-, 2 equivalent contributors.",
+        "CO3^2-: 24 electrons; one C=O and two C-O- in each contributor; 3 equivalent contributors. NO3-: 24 electrons; N has +1 formal charge, two singly bonded O have -1 each. Put ions in brackets with the overall charge. Resonance contributors are models of delocalized bonding, not molecules switching back and forth."
+      ],
+      "narration": "Charged Lewis structures. H3O+: 8 electrons, 3 O-H bonds, 1 lone pair on O. ClO-: 14 electrons, Cl-O single bond, 3 lone pairs on each atom. HCO3-: 24 electrons, HO-C(=O)-O-, 2 equivalent contributors. CO3^2-: 24 electrons; one C=O and two C-O- in each contributor; 3 equivalent contributors. NO3-: 24 electrons; N has +1 formal charge, two singly bonded O have -1 each. Put ions in brackets with the overall charge. Resonance contributors are models of delocalized bonding, not molecules switching back and forth."
+    },
+    {
+      "id": 15,
+      "title": "Radiation and practical chemistry",
+      "points": [
+        "Radioisotopes have unstable nuclei that decay and emit radiation. Alpha: helium nucleus, +2, stopped by paper. Beta-minus: electron, -1, reduced by aluminium. Gamma: electromagnetic radiation, neutral, strongly penetrating; thick lead or concrete attenuates it.",
+        "Uses in lessons: Am-241 smoke detectors; Co-60 food irradiation; C-14 dating once-living material; I-131 thyroid treatment; Tc-99m medical imaging. Flame tests: Li crimson, Na yellow, K lilac, Ca orange-red, Sr red, Cu blue-green. Colour comes from electrons releasing energy as light."
+      ],
+      "narration": "Radiation and practical chemistry. Radioisotopes have unstable nuclei that decay and emit radiation. Alpha: helium nucleus, +2, stopped by paper. Beta-minus: electron, -1, reduced by aluminium. Gamma: electromagnetic radiation, neutral, strongly penetrating; thick lead or concrete attenuates it. Uses in lessons: Am-241 smoke detectors; Co-60 food irradiation; C-14 dating once-living material; I-131 thyroid treatment; Tc-99m medical imaging. Flame tests: Li crimson, Na yellow, K lilac, Ca orange-red, Sr red, Cu blue-green. Colour comes from electrons releasing energy as light."
+    },
+    {
+      "id": 16,
+      "title": "Nature of chemistry and applications",
+      "points": [
+        "Matter has mass and occupies space. Chemistry studies matter, its properties and changes. Empirical knowledge comes from observation; theoretical knowledge uses explanations/models. Macroscopic means observable scale; microscopic means particles.",
+        "Science explains; technology applies. Green chemistry reduces hazardous substances, waste and energy use. IUPAC: International Union of Pure and Applied Chemistry. Sugar and sweeteners differ in structure and properties: compare taste, energy contribution, stability, cost and evidence-based suitability. Molecular shape matters as well as bond polarity."
+      ],
+      "narration": "Nature of chemistry and applications. Matter has mass and occupies space. Chemistry studies matter, its properties and changes. Empirical knowledge comes from observation; theoretical knowledge uses explanations/models. Macroscopic means observable scale; microscopic means particles. Science explains; technology applies. Green chemistry reduces hazardous substances, waste and energy use. IUPAC: International Union of Pure and Applied Chemistry. Sugar and sweeteners differ in structure and properties: compare taste, energy contribution, stability, cost and evidence-based suitability. Molecular shape matters as well as bond polarity."
+    },
+    {
+      "id": 17,
+      "title": "Final memory check",
+      "points": [
+        "Count particles. Calculate weighted averages. Explain trends. Balance charges. Name compounds. Draw all lone pairs. Explain mobile ions. These are the most repeated skills in your files.",
+        "Tonight: learn in short blocks, practise without notes, check answers, then revisit mistakes. Tomorrow: redo mistakes and one timed mixed round. Do not memorize option letters or question order. The game starts with lessons before testing you."
+      ],
+      "narration": "Final memory check. Count particles. Calculate weighted averages. Explain trends. Balance charges. Name compounds. Draw all lone pairs. Explain mobile ions. These are the most repeated skills in your files. Tonight: learn in short blocks, practise without notes, check answers, then revisit mistakes. Tomorrow: redo mistakes and one timed mixed round. Do not memorize option letters or question order. The game starts with lessons before testing you."
+    }
+  ],
+  "questions": [
+    {
+      "id": 0,
+      "topic": "Atoms",
+      "q": "What does atomic number Z count?",
+      "options": [
+        "Protons",
+        "Neutrons",
+        "Protons plus neutrons",
+        "Electron shells"
+      ],
+      "correct": 0,
+      "why": "An element is identified by its proton number."
+    },
+    {
+      "id": 1,
+      "topic": "Atoms",
+      "q": "17 protons and 18 neutrons: mass number?",
+      "options": [
+        "35",
+        "17",
+        "18",
+        "1"
+      ],
+      "correct": 0,
+      "why": "A = 17 + 18 = 35."
+    },
+    {
+      "id": 2,
+      "topic": "Atoms",
+      "q": "12 protons and 10 electrons: charge?",
+      "options": [
+        "+2",
+        "-2",
+        "0",
+        "+10"
+      ],
+      "correct": 0,
+      "why": "Charge = 12 - 10 = +2."
+    },
+    {
+      "id": 3,
+      "topic": "Atoms",
+      "q": "A neutral atom has 19 protons. How many electrons?",
+      "options": [
+        "19",
+        "20",
+        "39",
+        "18"
+      ],
+      "correct": 0,
+      "why": "Neutral means equal positive and negative charges."
+    },
+    {
+      "id": 4,
+      "topic": "Atoms",
+      "q": "Isotopes of one element differ in...",
+      "options": [
+        "Neutron number",
+        "Proton number",
+        "Atomic number",
+        "Element symbol"
+      ],
+      "correct": 0,
+      "why": "Same protons, different neutrons."
+    },
+    {
+      "id": 5,
+      "topic": "Atoms",
+      "q": "35 u (75%) and 37 u (25%): average mass?",
+      "options": [
+        "35.5 u",
+        "36 u",
+        "35.75 u",
+        "72 u"
+      ],
+      "correct": 0,
+      "why": "35 x 0.75 + 37 x 0.25 = 35.5."
+    },
+    {
+      "id": 6,
+      "topic": "Atoms",
+      "q": "10 u (20%), 11 u (30%), 12 u (50%): average?",
+      "options": [
+        "11.3 u",
+        "11 u",
+        "10.7 u",
+        "33 u"
+      ],
+      "correct": 0,
+      "why": "2 + 3.3 + 6 = 11.3."
+    },
+    {
+      "id": 7,
+      "topic": "Atoms",
+      "q": "Which scientist discovered the electron?",
+      "options": [
+        "Thomson",
+        "Bohr",
+        "Chadwick",
+        "Mendeleev"
+      ],
+      "correct": 0,
+      "why": "Cathode-ray experiments supported Thomson's electron discovery."
+    },
+    {
+      "id": 8,
+      "topic": "Atoms",
+      "q": "Rutherford's gold foil showed...",
+      "options": [
+        "A tiny dense positive nucleus",
+        "Electrons in fixed energy levels",
+        "Atoms have no empty space",
+        "Neutrons have negative charge"
+      ],
+      "correct": 0,
+      "why": "Most passed through; a few were strongly deflected."
+    },
+    {
+      "id": 9,
+      "topic": "Atoms",
+      "q": "Who proposed definite electron energy levels?",
+      "options": [
+        "Bohr",
+        "Dalton",
+        "Mendeleev",
+        "Chadwick"
+      ],
+      "correct": 0,
+      "why": "Bohr linked allowed energy levels to line spectra."
+    },
+    {
+      "id": 10,
+      "topic": "Atoms",
+      "q": "Aluminium (Z=13): shell arrangement?",
+      "options": [
+        "2,8,3",
+        "2,7,4",
+        "2,8,8",
+        "2,3,8"
+      ],
+      "correct": 0,
+      "why": "13 electrons: 2 in first, 8 in second, 3 in third."
+    },
+    {
+      "id": 11,
+      "topic": "Atoms",
+      "q": "An atom gains one electron. What changes?",
+      "options": [
+        "Charge",
+        "Element identity",
+        "Proton number",
+        "Mass number"
+      ],
+      "correct": 0,
+      "why": "Ordinary ion formation changes electrons, not the nucleus."
+    },
+    {
+      "id": 12,
+      "topic": "Trends",
+      "q": "Modern periodic table order?",
+      "options": [
+        "Increasing atomic number",
+        "Increasing atomic mass only",
+        "Alphabetical names",
+        "Decreasing density"
+      ],
+      "correct": 0,
+      "why": "Mendeleev used mass; modern ordering uses atomic number."
+    },
+    {
+      "id": 13,
+      "topic": "Trends",
+      "q": "A group is a...",
+      "options": [
+        "Vertical column",
+        "Horizontal row",
+        "Single atom",
+        "Diagonal line"
+      ],
+      "correct": 0,
+      "why": "Period = horizontal row."
+    },
+    {
+      "id": 14,
+      "topic": "Trends",
+      "q": "Which family has seven valence electrons?",
+      "options": [
+        "Halogens",
+        "Alkali metals",
+        "Alkaline earth metals",
+        "Noble gases"
+      ],
+      "correct": 0,
+      "why": "Group 17 has seven valence electrons."
+    },
+    {
+      "id": 15,
+      "topic": "Trends",
+      "q": "Smallest to largest radius?",
+      "options": [
+        "F < Cl < Br < I",
+        "I < Br < Cl < F",
+        "Cl < F < I < Br",
+        "F < Br < Cl < I"
+      ],
+      "correct": 0,
+      "why": "Radius grows down Group 17 as shells are added."
+    },
+    {
+      "id": 16,
+      "topic": "Trends",
+      "q": "Which has a larger radius?",
+      "options": [
+        "Ca",
+        "Mg",
+        "They are always equal",
+        "Cannot compare their groups"
+      ],
+      "correct": 0,
+      "why": "Ca is below Mg in Group 2, with an extra shell."
+    },
+    {
+      "id": 17,
+      "topic": "Trends",
+      "q": "Which is larger: Na or Na+?",
+      "options": [
+        "Na",
+        "Na+",
+        "Equal",
+        "Depends on isotope only"
+      ],
+      "correct": 0,
+      "why": "Na+ loses its outer shell and becomes smaller."
+    },
+    {
+      "id": 18,
+      "topic": "Trends",
+      "q": "Across a period, radius generally...",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Stays identical",
+        "Doubles"
+      ],
+      "correct": 0,
+      "why": "Increasing nuclear attraction pulls same-shell electrons closer."
+    },
+    {
+      "id": 19,
+      "topic": "Trends",
+      "q": "First ionization energy down a group generally...",
+      "options": [
+        "Decreases",
+        "Increases",
+        "Becomes zero",
+        "Stays constant"
+      ],
+      "correct": 0,
+      "why": "More distance and shielding make the outer electron easier to remove."
+    },
+    {
+      "id": 20,
+      "topic": "Trends",
+      "q": "Electron affinity describes...",
+      "options": [
+        "Energy change when a gaseous atom gains an electron",
+        "Removing a proton",
+        "Number of bonding electrons",
+        "Size of an ion"
+      ],
+      "correct": 0,
+      "why": "Do not confuse gaining an electron with ionization energy (removing one)."
+    },
+    {
+      "id": 21,
+      "topic": "Trends",
+      "q": "Highest electronegativity among F, Cl, Br and I?",
+      "options": [
+        "F",
+        "Cl",
+        "Br",
+        "I"
+      ],
+      "correct": 0,
+      "why": "Fluorine is highest in your course scale."
+    },
+    {
+      "id": 22,
+      "topic": "Bonding",
+      "q": "An ionic bond is...",
+      "options": [
+        "Attraction between oppositely charged ions",
+        "A shared neutron",
+        "Attraction between neutral molecules only",
+        "A pair of identical atoms"
+      ],
+      "correct": 0,
+      "why": "Transfer forms ions; electrostatic attraction is the bond."
+    },
+    {
+      "id": 23,
+      "topic": "Bonding",
+      "q": "A covalent bond involves...",
+      "options": [
+        "Shared electron pairs",
+        "Only lost protons",
+        "Shared neutrons",
+        "No electrons"
+      ],
+      "correct": 0,
+      "why": "Single: one pair; double: two; triple: three."
+    },
+    {
+      "id": 24,
+      "topic": "Bonding",
+      "q": "Why does solid NaCl not conduct?",
+      "options": [
+        "Its ions cannot move freely",
+        "It contains no charged particles",
+        "Its electrons disappear",
+        "It contains neutral molecules only"
+      ],
+      "correct": 0,
+      "why": "Molten NaCl conducts because the ions become mobile."
+    },
+    {
+      "id": 25,
+      "topic": "Bonding",
+      "q": "Why are ionic crystals brittle?",
+      "options": [
+        "Shifting layers brings like charges together",
+        "There are no forces between ions",
+        "All electrons leave",
+        "They contain liquid molecules"
+      ],
+      "correct": 0,
+      "why": "Like charges repel and the crystal fractures."
+    },
+    {
+      "id": 26,
+      "topic": "Bonding",
+      "q": "Typical simple molecular compounds have...",
+      "options": [
+        "Low melting points and poor conductivity",
+        "Mobile ions in every solid",
+        "Only high melting points",
+        "Metallic bonding"
+      ],
+      "correct": 0,
+      "why": "These are general tendencies, not universal for all covalent substances."
+    },
+    {
+      "id": 27,
+      "topic": "Bonding",
+      "q": "NaCl is described using a...",
+      "options": [
+        "Formula unit",
+        "NaCl molecule",
+        "Single covalent bond",
+        "Polymer chain"
+      ],
+      "correct": 0,
+      "why": "The formula gives the simplest ion ratio in the lattice."
+    },
+    {
+      "id": 28,
+      "topic": "Bonding",
+      "q": "EN(C)=2.6; EN(O)=3.4. Difference?",
+      "options": [
+        "0.8",
+        "6.0",
+        "1.8",
+        "-0.8"
+      ],
+      "correct": 0,
+      "why": "Use absolute difference: 3.4 - 2.6 = 0.8."
+    },
+    {
+      "id": 29,
+      "topic": "Bonding",
+      "q": "Which bond is more polar?",
+      "options": [
+        "H-F",
+        "H-Cl",
+        "They have equal polarity",
+        "Neither shares electrons"
+      ],
+      "correct": 0,
+      "why": "F attracts bonding electrons more strongly than Cl."
+    },
+    {
+      "id": 30,
+      "topic": "Bonding",
+      "q": "Which bond is non-polar?",
+      "options": [
+        "N-N",
+        "O-H",
+        "C-O",
+        "H-Cl"
+      ],
+      "correct": 0,
+      "why": "Identical atoms have equal electronegativity."
+    },
+    {
+      "id": 31,
+      "topic": "Bonding",
+      "q": "The more electronegative atom has...",
+      "options": [
+        "A partial negative charge",
+        "A partial positive charge",
+        "No electrons",
+        "Always charge +1"
+      ],
+      "correct": 0,
+      "why": "Shared electrons are attracted toward it."
+    },
+    {
+      "id": 32,
+      "topic": "Naming",
+      "q": "Formula for aluminium oxide?",
+      "options": [
+        "Al2O3",
+        "AlO",
+        "Al3O2",
+        "Al2O"
+      ],
+      "correct": 0,
+      "why": "2(+3) + 3(-2) = 0."
+    },
+    {
+      "id": 33,
+      "topic": "Naming",
+      "q": "Formula for magnesium phosphate?",
+      "options": [
+        "Mg3(PO4)2",
+        "MgPO4",
+        "Mg2PO4",
+        "Mg(PO4)3"
+      ],
+      "correct": 0,
+      "why": "3 Mg2+ balance 2 phosphate ions of charge 3-."
+    },
+    {
+      "id": 34,
+      "topic": "Naming",
+      "q": "Formula for aluminium nitrate?",
+      "options": [
+        "Al(NO3)3",
+        "AlNO3",
+        "Al3NO3",
+        "Al(NO2)3"
+      ],
+      "correct": 0,
+      "why": "Three nitrate ions balance one Al3+."
+    },
+    {
+      "id": 35,
+      "topic": "Naming",
+      "q": "Formula for ammonium phosphate?",
+      "options": [
+        "(NH4)3PO4",
+        "NH4PO4",
+        "NH4(PO4)3",
+        "(NH4)2PO4"
+      ],
+      "correct": 0,
+      "why": "Three ammonium +1 ions balance phosphate -3."
+    },
+    {
+      "id": 36,
+      "topic": "Naming",
+      "q": "Name FeS.",
+      "options": [
+        "Iron(II) sulfide",
+        "Iron(II) sulfate",
+        "Iron(III) sulfide",
+        "Iron sulfite"
+      ],
+      "correct": 0,
+      "why": "Sulfide is S2-; sulfate is SO4^2-."
+    },
+    {
+      "id": 37,
+      "topic": "Naming",
+      "q": "Name Mg(ClO3)2.",
+      "options": [
+        "Magnesium chlorate",
+        "Magnesium chloride",
+        "Magnesium chlorite",
+        "Magnesium perchlorate"
+      ],
+      "correct": 0,
+      "why": "ClO3- is chlorate; Cl- is chloride."
+    },
+    {
+      "id": 38,
+      "topic": "Naming",
+      "q": "Name PCl5.",
+      "options": [
+        "Phosphorus pentachloride",
+        "Phosphorus trichloride",
+        "Potassium chloride",
+        "Phosphorus chloride(V)"
+      ],
+      "correct": 0,
+      "why": "Five chlorine atoms require penta-."
+    },
+    {
+      "id": 39,
+      "topic": "Naming",
+      "q": "Formula for carbon tetrachloride?",
+      "options": [
+        "CCl4",
+        "CCl3",
+        "CaCl4",
+        "C4Cl"
+      ],
+      "correct": 0,
+      "why": "Tetra means four."
+    },
+    {
+      "id": 40,
+      "topic": "Naming",
+      "q": "Name N2O5.",
+      "options": [
+        "Dinitrogen pentoxide",
+        "Nitrogen dioxide",
+        "Dinitrogen oxide",
+        "Nitrogen pentoxide"
+      ],
+      "correct": 0,
+      "why": "Di = 2 nitrogen, penta = 5 oxygen; pentoxide spelling."
+    },
+    {
+      "id": 41,
+      "topic": "Naming",
+      "q": "A Roman numeral in iron(III) means...",
+      "options": [
+        "Iron has charge +3",
+        "Three iron atoms",
+        "Three chlorine atoms",
+        "Third isotope"
+      ],
+      "correct": 0,
+      "why": "Roman numeral gives the metal ion charge."
+    },
+    {
+      "id": 42,
+      "topic": "Naming",
+      "q": "Name CuCl.",
+      "options": [
+        "Copper(I) chloride",
+        "Copper(II) chloride",
+        "Copper chlorate",
+        "Calcium chloride"
+      ],
+      "correct": 0,
+      "why": "One Cl- needs Cu+."
+    },
+    {
+      "id": 43,
+      "topic": "Naming",
+      "q": "Formula for tin(IV) oxide?",
+      "options": [
+        "SnO2",
+        "SnO",
+        "Sn2O",
+        "Sn4O"
+      ],
+      "correct": 0,
+      "why": "Sn4+ needs two O2- ions."
+    },
+    {
+      "id": 44,
+      "topic": "Naming",
+      "q": "CoCl2.6H2O is...",
+      "options": [
+        "Cobalt(II) chloride hexahydrate",
+        "Cobalt chloride hydroxide",
+        "Cobalt(VI) chloride",
+        "Cobalt(II) chloride monohydrate"
+      ],
+      "correct": 0,
+      "why": "Six water molecules per formula unit of the hydrate."
+    },
+    {
+      "id": 45,
+      "topic": "Naming",
+      "q": "Which is nitrite?",
+      "options": [
+        "NO2-",
+        "NO3-",
+        "NH4+",
+        "N3-"
+      ],
+      "correct": 0,
+      "why": "Nitrate has three O; nitrite has two."
+    },
+    {
+      "id": 46,
+      "topic": "Lewis",
+      "q": "Water: how many lone pairs on oxygen?",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "4"
+      ],
+      "correct": 0,
+      "why": "8 electrons total: 4 in bonds, 4 in two lone pairs."
+    },
+    {
+      "id": 47,
+      "topic": "Lewis",
+      "q": "Ammonia: bonds and lone pairs on N?",
+      "options": [
+        "3 bonds, 1 lone pair",
+        "4 bonds, no lone pair",
+        "2 bonds, 2 lone pairs",
+        "3 bonds, 3 lone pairs"
+      ],
+      "correct": 0,
+      "why": "N supplies five valence electrons; three H add three."
+    },
+    {
+      "id": 48,
+      "topic": "Lewis",
+      "q": "A triple bond contains how many electrons?",
+      "options": [
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "correct": 0,
+      "why": "Three shared pairs = six electrons."
+    },
+    {
+      "id": 49,
+      "topic": "Lewis",
+      "q": "Total valence electrons in H3O+?",
+      "options": [
+        "8",
+        "10",
+        "9",
+        "7"
+      ],
+      "correct": 0,
+      "why": "6 + 3(1) - 1 = 8."
+    },
+    {
+      "id": 50,
+      "topic": "Lewis",
+      "q": "Total valence electrons in CO3^2-?",
+      "options": [
+        "24",
+        "22",
+        "20",
+        "26"
+      ],
+      "correct": 0,
+      "why": "4 + 3(6) + 2 = 24."
+    },
+    {
+      "id": 51,
+      "topic": "Lewis",
+      "q": "Total valence electrons in ClO-?",
+      "options": [
+        "14",
+        "12",
+        "13",
+        "15"
+      ],
+      "correct": 0,
+      "why": "7 + 6 + 1 = 14."
+    },
+    {
+      "id": 52,
+      "topic": "Lewis",
+      "q": "What must a Lewis structure show beyond a structural formula?",
+      "options": [
+        "Lone-pair electrons",
+        "Only the compound name",
+        "Only mass numbers",
+        "No bonds"
+      ],
+      "correct": 0,
+      "why": "Include all valence electrons and ion charges where needed."
+    },
+    {
+      "id": 53,
+      "topic": "Lewis",
+      "q": "C2H2 contains...",
+      "options": [
+        "A carbon-carbon triple bond",
+        "Only single bonds",
+        "An oxygen double bond",
+        "An ionic lattice"
+      ],
+      "correct": 0,
+      "why": "H-C triple-bond C-H gives each carbon an octet."
+    },
+    {
+      "id": 54,
+      "topic": "Lewis",
+      "q": "Which listed substance is ionic?",
+      "options": [
+        "CsCl",
+        "CF4",
+        "NH3",
+        "I2"
+      ],
+      "correct": 0,
+      "why": "Cs is a metal forming Cs+; Cl forms Cl-."
+    },
+    {
+      "id": 55,
+      "topic": "Lewis",
+      "q": "Carbonate has how many equivalent resonance contributors?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "6"
+      ],
+      "correct": 0,
+      "why": "Place C=O at each oxygen in turn; actual bonding is delocalized."
+    },
+    {
+      "id": 56,
+      "topic": "Applications",
+      "q": "Which radiation is a helium nucleus?",
+      "options": [
+        "Alpha",
+        "Beta-minus",
+        "Gamma",
+        "Visible light"
+      ],
+      "correct": 0,
+      "why": "Alpha contains two protons and two neutrons."
+    },
+    {
+      "id": 57,
+      "topic": "Applications",
+      "q": "Which radiation has no mass or electric charge?",
+      "options": [
+        "Gamma",
+        "Alpha",
+        "Beta-minus",
+        "A proton beam"
+      ],
+      "correct": 0,
+      "why": "Gamma is electromagnetic radiation."
+    },
+    {
+      "id": 58,
+      "topic": "Applications",
+      "q": "A bright yellow flame suggests...",
+      "options": [
+        "Sodium ions",
+        "Potassium ions",
+        "Copper ions",
+        "Lithium ions"
+      ],
+      "correct": 0,
+      "why": "Potassium is lilac; copper blue-green; lithium crimson."
+    },
+    {
+      "id": 59,
+      "topic": "Applications",
+      "q": "Which isotope is used in smoke detectors?",
+      "options": [
+        "Americium-241",
+        "Carbon-12",
+        "Sodium-23",
+        "Magnesium-24"
+      ],
+      "correct": 0,
+      "why": "This is the radioisotope example in your PPT."
+    },
+    {
+      "id": 60,
+      "topic": "Applications",
+      "q": "Empirical knowledge is based on...",
+      "options": [
+        "Observation and experiment",
+        "A guess without evidence",
+        "Names alone",
+        "Authority alone"
+      ],
+      "correct": 0,
+      "why": "Theoretical knowledge supplies models and explanations."
+    },
+    {
+      "id": 61,
+      "topic": "Applications",
+      "q": "Which is a green-chemistry aim?",
+      "options": [
+        "Reduce hazardous substances and waste",
+        "Create more waste",
+        "Use more steps regardless of need",
+        "Ignore energy use"
+      ],
+      "correct": 0,
+      "why": "Safer processes can reduce waste and energy requirements."
+    },
+    {
+      "id": 62,
+      "topic": "Applications",
+      "q": "IUPAC naming helps by...",
+      "options": [
+        "Standardizing chemical communication",
+        "Changing atomic number",
+        "Eliminating all hazards",
+        "Making all compounds ionic"
+      ],
+      "correct": 0,
+      "why": "Names let scientists communicate identities clearly."
+    },
+    {
+      "id": 63,
+      "topic": "Applications",
+      "q": "Sweetener selection should consider...",
+      "options": [
+        "Taste, energy, stability, cost and suitability",
+        "Sweetness alone",
+        "Colour alone",
+        "Natural always means safe"
+      ],
+      "correct": 0,
+      "why": "Compare evidence and several criteria, as in the class activity."
+    }
+  ]
+}
